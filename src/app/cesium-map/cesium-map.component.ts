@@ -22,7 +22,7 @@ export class CesiumMapComponent implements OnInit {
     
     console.log("enter here");
     
-    this.createModel('assets/model1.glb', 20);
+    this.createModel('https://anpugliese.github.io/polimi_facade/assets/model1.glb', 20);
     console.log(this.viewer.entities);
     
 
